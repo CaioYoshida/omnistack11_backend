@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Brackets\command;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Yoshi\AppData\Local\Microsoft\WindowsApps;C:\Users\Yoshi\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\4.2\bin;D:\Android\Sdk\platform-tools;D:\Android\Sdk\tools;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\Yoshi\AppData\Local\hyper\app-3.0.2\resources\bin;D:\Docker Toolbox;C:\Users\Yoshi\AppData\Local\GitHubDesktop\bin;C:\Users\Yoshi\AppData\Roaming\npm;C:\Users\Yoshi\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.18.0-20190901.1454
+
+Node version: 
+  12.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
